@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDA3E6DB1979147100F13321 /* Screen Shot 2014-07-18 at 10.37.51.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA3E6DA1979147100F13321 /* Screen Shot 2014-07-18 at 10.37.51.png */; };
+		BDA68A4D1977FF3E001AEC3A /* FHBlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA68A4C1977FF3E001AEC3A /* FHBlogPost.m */; };
+		BDDFCD441976794300CEE1DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFCD431976794300CEE1DB /* Foundation.framework */; };
+		BDDFCD461976794300CEE1DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFCD451976794300CEE1DB /* CoreGraphics.framework */; };
+		BDDFCD481976794300CEE1DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFCD471976794300CEE1DB /* UIKit.framework */; };
+		BDDFCD4E1976794300CEE1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDFCD4C1976794300CEE1DB /* InfoPlist.strings */; };
+		BDDFCD501976794300CEE1DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDFCD4F1976794300CEE1DB /* main.m */; };
+		BDDFCD541976794300CEE1DB /* FHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDFCD531976794300CEE1DB /* FHAppDelegate.m */; };
+		BDDFCD571976794300CEE1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDDFCD551976794300CEE1DB /* Main.storyboard */; };
+		BDDFCD5A1976794300CEE1DB /* FHMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDFCD591976794300CEE1DB /* FHMasterViewController.m */; };
+		BDDFCD5D1976794300CEE1DB /* FHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDFCD5C1976794300CEE1DB /* FHDetailViewController.m */; };
+		BDDFCD5F1976794300CEE1DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDFCD5E1976794300CEE1DB /* Images.xcassets */; };
+		BDDFCD661976794300CEE1DB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFCD651976794300CEE1DB /* XCTest.framework */; };
+		BDDFCD671976794300CEE1DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFCD431976794300CEE1DB /* Foundation.framework */; };
+		BDDFCD681976794300CEE1DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDDFCD471976794300CEE1DB /* UIKit.framework */; };
+		BDDFCD701976794300CEE1DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BDDFCD6E1976794300CEE1DB /* InfoPlist.strings */; };
+		BDDFCD721976794300CEE1DB /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDDFCD711976794300CEE1DB /* BlogReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDDFCD691976794300CEE1DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDDFCD381976794300CEE1DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDDFCD3F1976794300CEE1DB;
+			remoteInfo = BlogReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDA3E6DA1979147100F13321 /* Screen Shot 2014-07-18 at 10.37.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-07-18 at 10.37.51.png"; sourceTree = "<group>"; };
+		BDA68A4B1977FF3E001AEC3A /* FHBlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FHBlogPost.h; sourceTree = "<group>"; };
+		BDA68A4C1977FF3E001AEC3A /* FHBlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FHBlogPost.m; sourceTree = "<group>"; };
+		BDDFCD401976794300CEE1DB /* BlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDFCD431976794300CEE1DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDDFCD451976794300CEE1DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BDDFCD471976794300CEE1DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BDDFCD4B1976794300CEE1DB /* BlogReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReader-Info.plist"; sourceTree = "<group>"; };
+		BDDFCD4D1976794300CEE1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDDFCD4F1976794300CEE1DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDDFCD511976794300CEE1DB /* BlogReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlogReader-Prefix.pch"; sourceTree = "<group>"; };
+		BDDFCD521976794300CEE1DB /* FHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHAppDelegate.h; sourceTree = "<group>"; };
+		BDDFCD531976794300CEE1DB /* FHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHAppDelegate.m; sourceTree = "<group>"; };
+		BDDFCD561976794300CEE1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDDFCD581976794300CEE1DB /* FHMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHMasterViewController.h; sourceTree = "<group>"; };
+		BDDFCD591976794300CEE1DB /* FHMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHMasterViewController.m; sourceTree = "<group>"; };
+		BDDFCD5B1976794300CEE1DB /* FHDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FHDetailViewController.h; sourceTree = "<group>"; };
+		BDDFCD5C1976794300CEE1DB /* FHDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FHDetailViewController.m; sourceTree = "<group>"; };
+		BDDFCD5E1976794300CEE1DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDDFCD641976794300CEE1DB /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDDFCD651976794300CEE1DB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BDDFCD6D1976794300CEE1DB /* BlogReaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReaderTests-Info.plist"; sourceTree = "<group>"; };
+		BDDFCD6F1976794300CEE1DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BDDFCD711976794300CEE1DB /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDDFCD3D1976794300CEE1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFCD461976794300CEE1DB /* CoreGraphics.framework in Frameworks */,
+				BDDFCD481976794300CEE1DB /* UIKit.framework in Frameworks */,
+				BDDFCD441976794300CEE1DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDFCD611976794300CEE1DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFCD661976794300CEE1DB /* XCTest.framework in Frameworks */,
+				BDDFCD681976794300CEE1DB /* UIKit.framework in Frameworks */,
+				BDDFCD671976794300CEE1DB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDDFCD371976794300CEE1DB = {
+			isa = PBXGroup;
+			children = (
+				BDDFCD491976794300CEE1DB /* BlogReader */,
+				BDDFCD6B1976794300CEE1DB /* BlogReaderTests */,
+				BDDFCD421976794300CEE1DB /* Frameworks */,
+				BDDFCD411976794300CEE1DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDDFCD411976794300CEE1DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFCD401976794300CEE1DB /* BlogReader.app */,
+				BDDFCD641976794300CEE1DB /* BlogReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDDFCD421976794300CEE1DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFCD431976794300CEE1DB /* Foundation.framework */,
+				BDDFCD451976794300CEE1DB /* CoreGraphics.framework */,
+				BDDFCD471976794300CEE1DB /* UIKit.framework */,
+				BDDFCD651976794300CEE1DB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDDFCD491976794300CEE1DB /* BlogReader */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFCD521976794300CEE1DB /* FHAppDelegate.h */,
+				BDDFCD531976794300CEE1DB /* FHAppDelegate.m */,
+				BDDFCD551976794300CEE1DB /* Main.storyboard */,
+				BDDFCD581976794300CEE1DB /* FHMasterViewController.h */,
+				BDDFCD591976794300CEE1DB /* FHMasterViewController.m */,
+				BDDFCD5B1976794300CEE1DB /* FHDetailViewController.h */,
+				BDDFCD5C1976794300CEE1DB /* FHDetailViewController.m */,
+				BDDFCD5E1976794300CEE1DB /* Images.xcassets */,
+				BDDFCD4A1976794300CEE1DB /* Supporting Files */,
+				BDA68A4B1977FF3E001AEC3A /* FHBlogPost.h */,
+				BDA68A4C1977FF3E001AEC3A /* FHBlogPost.m */,
+			);
+			path = BlogReader;
+			sourceTree = "<group>";
+		};
+		BDDFCD4A1976794300CEE1DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDA3E6DA1979147100F13321 /* Screen Shot 2014-07-18 at 10.37.51.png */,
+				BDDFCD4B1976794300CEE1DB /* BlogReader-Info.plist */,
+				BDDFCD4C1976794300CEE1DB /* InfoPlist.strings */,
+				BDDFCD4F1976794300CEE1DB /* main.m */,
+				BDDFCD511976794300CEE1DB /* BlogReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDDFCD6B1976794300CEE1DB /* BlogReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFCD711976794300CEE1DB /* BlogReaderTests.m */,
+				BDDFCD6C1976794300CEE1DB /* Supporting Files */,
+			);
+			path = BlogReaderTests;
+			sourceTree = "<group>";
+		};
+		BDDFCD6C1976794300CEE1DB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDDFCD6D1976794300CEE1DB /* BlogReaderTests-Info.plist */,
+				BDDFCD6E1976794300CEE1DB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDDFCD3F1976794300CEE1DB /* BlogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDFCD751976794300CEE1DB /* Build configuration list for PBXNativeTarget "BlogReader" */;
+			buildPhases = (
+				BDDFCD3C1976794300CEE1DB /* Sources */,
+				BDDFCD3D1976794300CEE1DB /* Frameworks */,
+				BDDFCD3E1976794300CEE1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlogReader;
+			productName = BlogReader;
+			productReference = BDDFCD401976794300CEE1DB /* BlogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDDFCD631976794300CEE1DB /* BlogReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDDFCD781976794300CEE1DB /* Build configuration list for PBXNativeTarget "BlogReaderTests" */;
+			buildPhases = (
+				BDDFCD601976794300CEE1DB /* Sources */,
+				BDDFCD611976794300CEE1DB /* Frameworks */,
+				BDDFCD621976794300CEE1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDDFCD6A1976794300CEE1DB /* PBXTargetDependency */,
+			);
+			name = BlogReaderTests;
+			productName = BlogReaderTests;
+			productReference = BDDFCD641976794300CEE1DB /* BlogReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDDFCD381976794300CEE1DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = FarisHalteh;
+				TargetAttributes = {
+					BDDFCD631976794300CEE1DB = {
+						TestTargetID = BDDFCD3F1976794300CEE1DB;
+					};
+				};
+			};
+			buildConfigurationList = BDDFCD3B1976794300CEE1DB /* Build configuration list for PBXProject "BlogReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDDFCD371976794300CEE1DB;
+			productRefGroup = BDDFCD411976794300CEE1DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDDFCD3F1976794300CEE1DB /* BlogReader */,
+				BDDFCD631976794300CEE1DB /* BlogReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDDFCD3E1976794300CEE1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFCD5F1976794300CEE1DB /* Images.xcassets in Resources */,
+				BDDFCD4E1976794300CEE1DB /* InfoPlist.strings in Resources */,
+				BDA3E6DB1979147100F13321 /* Screen Shot 2014-07-18 at 10.37.51.png in Resources */,
+				BDDFCD571976794300CEE1DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDFCD621976794300CEE1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFCD701976794300CEE1DB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDDFCD3C1976794300CEE1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFCD541976794300CEE1DB /* FHAppDelegate.m in Sources */,
+				BDA68A4D1977FF3E001AEC3A /* FHBlogPost.m in Sources */,
+				BDDFCD501976794300CEE1DB /* main.m in Sources */,
+				BDDFCD5A1976794300CEE1DB /* FHMasterViewController.m in Sources */,
+				BDDFCD5D1976794300CEE1DB /* FHDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDDFCD601976794300CEE1DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDFCD721976794300CEE1DB /* BlogReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDDFCD6A1976794300CEE1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDDFCD3F1976794300CEE1DB /* BlogReader */;
+			targetProxy = BDDFCD691976794300CEE1DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDDFCD4C1976794300CEE1DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDFCD4D1976794300CEE1DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BDDFCD551976794300CEE1DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDFCD561976794300CEE1DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDDFCD6E1976794300CEE1DB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDDFCD6F1976794300CEE1DB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDDFCD731976794300CEE1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BDDFCD741976794300CEE1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDDFCD761976794300CEE1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				INFOPLIST_FILE = "BlogReader/BlogReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDDFCD771976794300CEE1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				INFOPLIST_FILE = "BlogReader/BlogReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BDDFCD791976794300CEE1DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogReader.app/BlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlogReaderTests/BlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BDDFCD7A1976794300CEE1DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogReader.app/BlogReader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader/BlogReader-Prefix.pch";
+				INFOPLIST_FILE = "BlogReaderTests/BlogReaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDDFCD3B1976794300CEE1DB /* Build configuration list for PBXProject "BlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDFCD731976794300CEE1DB /* Debug */,
+				BDDFCD741976794300CEE1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDFCD751976794300CEE1DB /* Build configuration list for PBXNativeTarget "BlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDFCD761976794300CEE1DB /* Debug */,
+				BDDFCD771976794300CEE1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDDFCD781976794300CEE1DB /* Build configuration list for PBXNativeTarget "BlogReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDDFCD791976794300CEE1DB /* Debug */,
+				BDDFCD7A1976794300CEE1DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDDFCD381976794300CEE1DB /* Project object */;
+}
